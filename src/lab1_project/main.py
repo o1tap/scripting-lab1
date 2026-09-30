@@ -7,7 +7,7 @@ def main():
     """
     Основна функція виконання скрипту.
     """
-    message = "Версія гілки А"
+    message = "Фінальна узгоджена версія"
     checksum = calculate_checksum(message)
     output = format_report("Контрольна сума повідомлення", checksum)
     print(output)
