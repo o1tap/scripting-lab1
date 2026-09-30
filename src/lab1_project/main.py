@@ -7,7 +7,7 @@ def main():
     """
     Основна функція виконання скрипту.
     """
-    message = "DevSecOps Pipeline 2026"
+    message = "Версія гілки B"
     checksum = calculate_checksum(message)
     output = format_report("Контрольна сума повідомлення", checksum)
     print(output)
